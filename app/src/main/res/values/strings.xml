@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Convertitore di temperatura</string>
+    <string name="Celsius">Celsius</string>
+    <string name="C">°C</string>
+    <string name="Farhenheit">Farhenheit</string>
+    <string name="F">°F</string>
+    <string name="inserisci">Inserisci la temperatura</string>
+    <string name="CF">Da °C a °F</string>
+    <string name="Converti">Converti</string>
 </resources>

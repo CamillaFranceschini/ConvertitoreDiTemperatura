@@ -1,0 +1,4 @@
+#Sun Mar 29 20:35:58 CEST 2020
+base.0=/Users/camillafranceschini/AndroidStudioProjects/Convertitoreditemperatura/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
