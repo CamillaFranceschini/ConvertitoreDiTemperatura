@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wallpaper"
+    android:background="@drawable/black_red_blue"
     tools:context=".MainActivity">
 
     <Button
@@ -23,19 +23,18 @@
         app:layout_constraintTop_toBottomOf="@+id/TFarhenait"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/Celsius"
+    <EditText
+        android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginTop="52dp"
-        android:gravity="center"
-        android:text="Celsius"
-        android:textColor="#3F51B5"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/editText2"
+        android:ems="10"
+        android:hint="Inserire la temperatura"
+        android:inputType="number"
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toStartOf="@+id/Unita_misura_C"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Celsius"
         app:layout_constraintTop_toBottomOf="@+id/subtitle" />
 
     <TextView
@@ -68,18 +67,19 @@
         app:layout_constraintStart_toEndOf="@+id/Farhenheit"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
-    <EditText
-        android:id="@+id/editText2"
+    <TextView
+        android:id="@+id/Celsius"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginTop="52dp"
-        android:ems="10"
-        android:hint="Inserire la temperatura"
-        android:inputType="number"
-        android:textColor="#2196F3"
-        app:layout_constraintEnd_toStartOf="@+id/Unita_misura_C"
+        android:gravity="center"
+        android:text="Celsius"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editText2"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Celsius"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subtitle" />
 
     <TextView
